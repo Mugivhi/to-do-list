@@ -4,14 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCircleCheck,faPen,faTrashCan
 } from '@fortawesome/free-solid-svg-icons'
-import { Button } from "bootstrap";
 
 
 function Todo(){
-    const [toDo, setToDo]=useState([
-        {"id":1,"title":"Task 1","status": true},
-        {"id":2,"title":"Task 2","status": false}
-    ]);
+    const [toDo, setToDo]=useState([]);
     // Temp State
     const [newTask,setNewTask]=useState('');
     const [updateData,setUpdateData]=useState('');
