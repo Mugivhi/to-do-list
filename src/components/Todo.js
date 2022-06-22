@@ -55,8 +55,6 @@ function Todo(){
         setToDo(updatedObject);
         setUpdateData('');
     }
-
-
     return(
         <div className="container App">
             <br></br>
