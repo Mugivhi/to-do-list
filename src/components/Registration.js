@@ -5,7 +5,7 @@ function Registration(){
     const[surname, setSurname]=useState('')
     const[regNO, setRegno]=useState('')
     const[date]=useState('')
-    const[image,setPic]=useState('')
+    const[setPic]=useState('')
     const[phone, setPhone]=useState('')
     const[email, setEmail]=useState('')
     const[password, setPassword]=useState('')
